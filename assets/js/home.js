@@ -25,13 +25,17 @@ $(window).scroll(function(){
     $('nav').addClass('h-142');
     $('.x-m ul ul').addClass('t-65');
     $('.searchbox').addClass('t-65');
+    $('.fill').addClass('fill-red');
+    $('.t-30>table>tbody>tr>td:nth-of-type(odd)').addClass('fill-red');
     }
     else {
     $('.menu').removeClass('fixed-header');
     $('nav').removeClass('h-142');
     $('.x-m ul ul').removeClass('t-65');
     $('.searchbox').removeClass('t-65');
-    }
+    $('.fill').removeClass('fill-red');
+    $('.t-30>table>tbody>tr>td:nth-of-type(odd)').removeClass('fill-red');
+}
 });
 var srcbox = document.getElementById('srcbox');
 var src = document.getElementById("src");
