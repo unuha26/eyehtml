@@ -15,7 +15,7 @@ body{
     margin: 0 auto;
     vertical-align: middle;
 }
-.garis-banner, .x-m, footer, .banner-150, .rek-ber, .box-vl, .tab, .et-content, nav, .trending, .menu, .jadwal, .pemain, .bx-pemain, .container{
+.garis-x, .garis-banner, .x-m, footer, .banner-150, .rek-ber, .box-vl, .tab, .et-content, nav, .trending, .menu, .jadwal, .pemain, .bx-pemain, .container{
     width: 100%;
     float: left;
 }
@@ -80,7 +80,6 @@ video{
 }
 .btn-login{
     padding: 25px 15px 25px 25px;
-    /* width: 500px; */
 }
 .btn-reg{
     background-color: #2196F3;
@@ -1524,4 +1523,260 @@ a:link, a:visited,
 }
 .b-r-1{
     border-right: 1px solid gainsboro;    
+}
+/* DILA */
+.w1020{
+    width: 1020px;
+}
+.menu-3{
+    font-size: .75em;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+.menu-3 li{
+    margin-right: 41.5px;
+    padding-bottom: 7px;
+}
+.menu-3 a{
+    text-decoration: none;
+    color: gray
+}
+.menu-3 a:hover{
+    border-bottom: 3px solid #3a7dc6;
+    color: #3a7dc6;
+}
+.menu-3 li:active, .menu-2 li:hover{
+    color: gray;
+    border-bottom: 1px solid gainsboro;
+}
+.bottom-left{
+    position: relative;
+    margin-top: -20px;
+    width: 400px;
+    left: 20px;
+    bottom: 100px;
+    font-size: 18px;
+    color: white;
+}
+.btn-biru{
+    background-color: #3a7dc6;
+    width: 100px;
+    border-radius: 5px;
+    color: white;
+    padding: 8px 20px;
+    font-size: .8em;
+    position: relative;
+    bottom: 20px;
+    border: 0;
+}
+.btn-biru:hover{
+    color: #3a7dc6;
+    background-color: white;
+    
+}
+.half{
+    width: 500px;
+    float: left;
+    margin-top: 20px;
+}
+.garis-x{
+    border-bottom: 1px solid gainsboro;
+    padding-top: 30px;
+    margin-bottom: 10px;
+}
+.garis-x2{
+    border-bottom: 1px solid gainsboro;
+    padding-top: 30px;
+    margin-bottom: 10px;
+    margin-top: -60px;
+}
+.m-t-45{
+    margin-top: -45px;
+}
+.m-t-100{
+    margin-top: -100px;
+}
+.p-d-r-0{
+    padding-right: 0px !important;
+}
+.w30{
+    width: 240px;
+    float: left;
+    padding-right: 20px;
+}
+.subjudul{
+    color: #3a7dc6;
+    float: left;
+}
+.sub-en{
+    font-weight: 500;
+    font-size: .9em;
+    position: relative;
+    top: -10px;
+}
+.time-view{
+    font-size: .6em;
+    font-weight: 500;
+    color: gray;
+    position: relative;
+    top: -20px;
+}
+.panah{
+    padding: 7px;
+    background-color: white;
+    border-radius: 50%;
+    position: absolute;
+    z-index: 2;
+    color: #3a7dc6;
+    box-shadow: 1px 1px 1px 1px grey
+}
+.panahkanan{
+    right: -21px;
+    top: 57px;
+}
+.panahkiri{
+    right: 998px;
+    top: 57px;
+}
+.panahkiri:hover, .panahkanan:hover{
+    color: white;
+    background-color: #3a7dc6;
+}
+.p-r{
+    position: relative;
+}
+.p-d-l-20{
+    padding-left: 20px;
+}
+.p-d-l-30{
+    padding-left: 20px;
+}
+.box-feed{
+    width: 600px;
+    border: 1px solid rgb(221, 220, 220);
+    border-radius: 3px;
+    margin-top: 60px ;
+    /* margin-bottom: 25px; */
+}
+.feed-profil-foto{
+    width: 35px;
+    border-radius: 50%;
+    border: 2px solid rgb(151, 151, 151);
+}
+.nama-pro-feed{
+    top: -36px;
+    left: 70px;
+}
+.nama-pro-feed>a, like>a{
+    font-size: .9em;
+    font-weight: 600;
+}
+.nama-pro-feed>a{
+    text-decoration: none;
+    color: rgb(59, 59, 59);
+}
+.post-photo{
+    width: 600px;
+    height: 600px;
+    overflow: hidden;    
+}
+.post-photo img{
+    min-height: 100%;
+    min-width: 100%;
+}
+.m-t-15{
+    margin-top: 15px;
+}
+.m-l-20{
+    margin-left: 20px;
+}
+.titik3{
+    margin-top: -60px;
+    margin-right: 20px
+}
+.w-500{
+    width: 500px;
+}
+.t-15{
+    top: -15px
+}
+.like{
+    top: -26px;
+    left: 33px;
+}
+/* .comment{
+    display: block;
+} */
+.like>span, .comment>span, .komen>ul>li>span{
+    font-size: .85em;
+    font-weight: 400;
+}
+.like>a, .comment>a, .komen>ul>li>a{
+    font-size: .85em;
+    font-weight: 510;
+}
+.like>a, .comment>a, .komen>ul>li>a {
+    text-decoration: none;
+    color: rgb(81, 81, 255);
+}
+.w567{
+    width: 567px;
+}
+.c-g{
+    color: gray !important;
+}
+.komen{
+    display: block;
+}
+.komen>ul>li>span{
+    padding-left: 5px;
+}
+.komen>ul>li{
+    padding-top: 7px;
+}
+.td{
+    text-decoration: none;
+    font-size: .85em;
+}
+.waktu-post{
+    font-size: .7em !important;
+    margin-top: 10px !important;
+}
+.second-icon{
+    display: none;
+    color: red;
+    position: relative;
+    left: -24px;
+}
+.first-icon:hover~.second-icon, .second-icon:hover{
+    display: inline-block;
+}
+.kolom-komentar{
+    background-color: rgb(231, 230, 230);
+    width: 100%;
+    padding: 10px 0px;
+    margin: 20px 0px -15px 0px;
+}
+.kolom-komentar>input{
+    width: 540px;
+    margin: 0px 20px ;
+    padding: 10px;
+    border-radius: 3px;
+    border: 0px;
+}
+.btn-white{
+    background-color: white;
+    width: 220px;
+    border: 1px solid #3a7dc6;
+    border-radius: 5px;
+    color: #3a7dc6;
+    padding: 8px 20px;
+    font-size: .8em;
+    bottom: 20px;
+    /* border-color: #3a7dc6; */
+    margin-left: 40%;
+}
+.btn-white:hover{
+    color: white;
+    background-color: #3a7dc6;
 }

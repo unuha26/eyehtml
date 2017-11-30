@@ -18,6 +18,34 @@ $(document).ready(function(){
     $(".right").click(function(){
         $("#topPemain").carousel("next");
     });
+    $("#profilssb").carousel();
+    $(".left").click(function(){
+        $("#profilssb").carousel("prev");
+    });
+    $(".right").click(function(){
+        $("#profilssb").carousel("next");
+    });
+    $("#rekom").carousel();
+    $(".left").click(function(){
+        $("#rekom").carousel("prev");
+    });
+    $(".right").click(function(){
+        $("#rekom").carousel("next");
+    });
+    $("#soccersains").carousel();
+    $(".left").click(function(){
+        $("#soccersains").carousel("prev");
+    });
+    $(".right").click(function(){
+        $("#soccersains").carousel("next");
+    });
+    $("#videokamu").carousel();
+    $(".left").click(function(){
+        $("#videokamu").carousel("prev");
+    });
+    $(".right").click(function(){
+        $("#videokamu").carousel("next");
+    });
 });
 $(window).scroll(function(){
     if ($(window).scrollTop() >= 72) {
