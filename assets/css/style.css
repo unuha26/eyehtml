@@ -1062,6 +1062,9 @@ a:link, a:visited,
 .mt-30{
     margin-top: 30px;
 }
+.mt-40{
+    margin-top: 40px;
+}
 .mt-20{
     margin-top: 20px;
 }
@@ -1528,6 +1531,9 @@ a:link, a:visited,
 .w1020{
     width: 1020px;
 }
+.w1000{
+    width: 900px;
+}
 .menu-3{
     font-size: .75em;
     text-transform: uppercase;
@@ -1690,10 +1696,6 @@ a:link, a:visited,
 .m-l-20{
     margin-left: 20px;
 }
-.titik3{
-    margin-top: -60px;
-    margin-right: 20px
-}
 .w-500{
     width: 500px;
 }
@@ -1704,9 +1706,6 @@ a:link, a:visited,
     top: -26px;
     left: 33px;
 }
-/* .comment{
-    display: block;
-} */
 .like>span, .comment>span, .komen>ul>li>span{
     font-size: .85em;
     font-weight: 400;
@@ -1717,13 +1716,13 @@ a:link, a:visited,
 }
 .like>a, .comment>a, .komen>ul>li>a {
     text-decoration: none;
-    color: rgb(81, 81, 255);
+    color: rgb(72, 186, 228);
 }
 .w567{
     width: 567px;
 }
 .c-g{
-    color: gray !important;
+    color: rgb(173, 173, 173) !important;
 }
 .komen{
     display: block;
@@ -1746,7 +1745,7 @@ a:link, a:visited,
     display: none;
     color: red;
     position: relative;
-    left: -24px;
+    left: -29px;
 }
 .first-icon:hover~.second-icon, .second-icon:hover{
     display: inline-block;
@@ -1773,10 +1772,78 @@ a:link, a:visited,
     padding: 8px 20px;
     font-size: .8em;
     bottom: 20px;
-    /* border-color: #3a7dc6; */
     margin-left: 40%;
 }
 .btn-white:hover{
     color: white;
     background-color: #3a7dc6;
+}
+.btn-white-follow{
+    background-color: white;
+    width: 120px;
+    border: 1px solid #3a7dc6;
+    border-radius: 5px;
+    color: #3a7dc6;
+    padding: 8px 20px;
+    font-size: .9em;
+    font-weight: 600;
+    margin-left: 20px;
+}
+.btn-white-follow:hover{
+    color: white;
+    background-color: #3a7dc6;
+}
+.kotak-popup{
+    width: 100px;
+    height: 60px;
+    border-radius: 5px;
+    background-color: white;
+    box-shadow: 0px 0px 1px 1px #65656526;
+
+}
+.teks-popup{
+    font-size: .6em;
+    padding-left: 20px;
+    top: -6px;
+    font-weight: 500;
+    color: rgb(59, 59, 59);
+}
+.panah-popup{
+    transform: rotate(45deg);
+    width: 10px;
+    height: 10px;
+    top: -5px;
+    background-color: white;
+    overflow: hidden;
+    box-shadow: -2px -1.5px 3px -1px #65656526;
+}
+.posisi-kotak-popup{
+    z-index: 1;
+    top: 30px;
+    right: -4px;
+}
+.titik3{
+    margin-top: -60px;
+    margin-right: -58px;
+    right: 670px;
+}
+.p-a{
+    position: absolute;
+}
+
+t80{
+    top: 80px;
+}
+.m-t-65{
+    margin-top: 65px;
+}
+.me-profil-foto{
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+}
+.uname{
+    font-size: .99em;
+    font-weight: 600;
+    color: gray;
 }
