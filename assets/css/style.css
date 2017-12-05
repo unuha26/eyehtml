@@ -1579,8 +1579,7 @@ a:link, a:visited,
 }
 .btn-biru:hover{
     color: #3a7dc6;
-    background-color: white;
-    
+    background-color: white; 
 }
 .half{
     width: 500px;
@@ -1924,4 +1923,50 @@ a:link, a:visited,
 }
 .me-profile>ul>li>table td{
     padding: 2px;
+}
+.lihatlainnya>a{
+    text-decoration: none;
+    color: #55a5ca;
+    font-size: .8em;
+    font-weight: 500;
+}
+.me-sub{
+    color: #55a5ca;
+    float: left;
+    font-size: 17px;
+    font-weight: 600;   
+}
+.me-explr-find{
+    width: 286px;
+    height: 286px;
+    margin-top: 20px;
+    float: left;
+    border: 1px solid lightgray;
+}
+.me-explr-find:nth-last-of-type(n+2){
+    margin-right: 21px;
+}
+.gambar-explr-people{
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+}
+.btn-blue{
+    background-color: #3a7dc6;
+    width: 100px;
+    border-radius: 5px;
+    color: white;
+    padding: 8px 20px;
+    font-size: .8em;
+    position: relative;
+    bottom: 20px;
+    border: 0;
+}
+.btn-blue:hover{
+    color: #3a7dc6;
+    background-color: white; 
+    border: 1px solid lightgray;
+}
+.gambar-explr-people>ul>li>a{
+    
 }
