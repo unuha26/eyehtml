@@ -612,7 +612,7 @@ video{
 .tab2{
     padding-top: 40px;
 }
-.tab2 .left, .tab2 .right{
+.tab2 .left, .tab2 .right, .use-opacity .left, .use-opacity .right{
     -webkit-animation-name: fade2;
     -webkit-animation-duration: 1s;
     animation-name: fade2;
@@ -1631,6 +1631,8 @@ ul, li {
     font-size: .9em;
     position: relative;
     top: -10px;
+    height: 41px;
+    overflow: hidden;
 }
 .time-view{
     font-size: .6em;
@@ -2058,4 +2060,26 @@ ul, li {
 }
 .t-b-t{
     border-top: 1px solid gainsboro;
+}
+.top-unset{
+    top: unset;
+}
+.v-eyetube>.content{
+    width: 100%;
+    position: relative;
+    z-index: -1;
+}
+.v-eyetube{
+    background-color: #fff6;
+    background-image: url('../img/btn-play.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center; 
+
+}
+.border-1px{
+    border: 1px solid gainsboro;
+}
+.pd-l-10{
+    padding-left: 10px;
 }
