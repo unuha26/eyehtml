@@ -2000,3 +2000,40 @@ a:link, a:visited,
 .gambar-explr-people>ul>li>a{
     
 }
+.mi-m-10{
+    font-size: 1.5em !important;
+    margin: -10px;
+    padding-right: 10px;
+    position: relative;
+    top: 7px;
+}
+.banner-min-150{
+    min-height: 150px;
+    background-color: gainsboro;
+}
+.h4-orange{
+    color: orange;
+    font-size: .85em;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+.p-gray{
+    line-height: 1.3em;
+    font-size: .9em;
+    color: gray;
+    margin-top: -15px;
+}
+.info-list li{
+    display: block;
+    padding: 12px;
+    color: rgb(168, 168, 168);
+    font-size: .9em;
+}
+.info-list li:nth-of-type(2n+2){
+    padding-top: 0px;
+    margin-top: -8px;
+    color: black;
+}
+.t-b-t{
+    border-top: 1px solid gainsboro;
+}
