@@ -188,7 +188,7 @@ nav>img{
 .tab2{
     padding-top: 30px;
 }
-.tab2 .left, .tab2 .right{
+.tab2 .left, .tab2 .right, .use-opacity .left, .use-opacity .right{
     -webkit-animation-name: fade2;
     -webkit-animation-duration: 1s;
     animation-name: fade2;
