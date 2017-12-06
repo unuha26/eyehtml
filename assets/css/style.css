@@ -617,7 +617,7 @@ video{
     -webkit-animation-duration: 1s;
     animation-name: fade2;
     animation-duration: 1s;
-    
+
 }
 @-webkit-keyframes fade2 {
     0% {opacity: 0;}
@@ -1917,7 +1917,33 @@ ul, li {
     min-height: 100%;
     min-width: 100%;
     height: 286px;
-    
+    opacity: 1;
+    transition: .5s ease;
+    backface-visibility: hidden;
+}
+.tengah{
+    transition: .5s ease;
+    opacity: 0;
+    position: relative;
+    top: -291px;
+    width: 100%;
+    height: 100%;
+    padding-top: 132px;
+    background-color: #00000073;
+}
+.me-post:hover .me-gambar-post {
+    opacity: 0.5;
+}
+.me-post:hover .tengah {
+    opacity: 1;
+}
+.tengah>i, .tengah>img, .tengah>span{
+    color: white !important;
+    opacity: 1 !important;
+}
+.tengah>span{
+    position: relative;
+    top: -5px;
 }
 .me-post:nth-of-type(3n+1){
     margin-left: 0px;
@@ -2024,6 +2050,14 @@ ul, li {
     color: #3a7dc6;
     background-color: white; 
     border: 1px solid lightgray;
+}
+.ikon{
+    font-size: 27px;
+    padding-left: 15px;
+    color: gray;
+}
+.ikon:hover{
+    color: #55a5ca;
 }
 .mi-m-10{
     font-size: 1.5em !important;
