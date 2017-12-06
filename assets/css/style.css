@@ -2108,9 +2108,7 @@ ul, li {
     background-color: #fff6;
     background-image: url('../img/btn-play.png');
     background-repeat: no-repeat;
-    /* background-attachment: fixed; */
     background-position: center; 
-
 }
 .border-1px{
     border: 1px solid gainsboro;
