@@ -1603,6 +1603,9 @@ a:link, a:visited,
 .m-t-100{
     margin-top: -100px;
 }
+.m-t-10{
+    margin-top: -10px
+}
 .p-d-r-0{
     padding-right: 0px !important;
 }
@@ -1652,6 +1655,9 @@ a:link, a:visited,
 .p-r{
     position: relative;
 }
+.p-a{
+    position: absolute;
+}
 .p-d-l-20{
     padding-left: 20px;
 }
@@ -1660,9 +1666,9 @@ a:link, a:visited,
 }
 .box-feed{
     width: 600px;
-    border: 2px solid rgb(221, 220, 220);
+    border: 1px solid rgb(230, 230, 230);
     border-radius: 3px;
-    margin-top: 60px ;
+    margin-bottom: 50px;
 }
 .feed-profil-foto{
     width: 35px;
@@ -1698,7 +1704,57 @@ a:link, a:visited,
 }
 .titik3{
     margin-top: -60px;
-    margin-right: -55px
+    margin-right: 20px;
+    /* z-index: -1; */
+}
+.posisi-kotak-popup{
+    right: -40px;
+    top: 27px;
+}
+.panah-popup{
+    width: 10px;
+    height: 10px;
+    background-color: white;
+    box-shadow: -1px -1px 0px 0px lightgrey;
+    transform: rotate(45deg);
+    top: -5px;
+    z-index: 2;
+}
+.kotak-popup{
+    width: 100px;
+    height: 60px;
+    background-color: white;
+    box-shadow: 0px 0px 2px 0px grey;
+    border-radius: 3px;
+    z-index: 1;
+    display: none;
+}
+.posisi-popup-notif{
+    right: 160px;
+    top: 60px;
+}
+.panah-popup-notif{
+    width: 15px;
+    height: 15px;
+    background-color: white;
+    box-shadow: -1px -1px 0px 0px lightgrey;
+    transform: rotate(45deg);
+    top: -7px;
+    left: 332px;
+    z-index: 2;
+}
+.kotak-popup-notif{
+    width: 450px;
+    height: 400px;
+    background-color: white;
+    box-shadow: 0px 0px 5px 0px #c0c0c0;
+    border-radius: 3px;
+    z-index: 2;
+    /* display: none; */
+}
+.teks-popup{
+    padding-left: 15px;
+    font-size: .75em;
 }
 .m-l-170{
     margin-left: 170px;
@@ -1713,15 +1769,15 @@ a:link, a:visited,
     top: -26px;
     left: 33px;
 }
-.like>span, .comment>span, .komen>ul>li>span{
+.like>span, .comment span, .komen span{
     font-size: .85em;
     font-weight: 400;
 }
-.like>a, .comment>a, .komen>ul>li>a{
+.like>a, .comment a, .komen a{
     font-size: .85em;
     font-weight: 510;
 }
-.like>a, .comment>a, .komen>ul>li>a {
+.like>a, .comment a, .komen a {
     text-decoration: none;
     color: rgb(81, 81, 255);
 }
@@ -1745,14 +1801,14 @@ a:link, a:visited,
     font-size: .85em;
 }
 .waktu-post{
-    font-size: .7em !important;
-    margin-top: 10px !important;
+    font-size: .6em !important;
+    margin-top: 20px !important;
 }
 .second-icon{
     display: none;
     color: red;
     position: relative;
-    left: -24px;
+    left: -29px;
 }
 .first-icon:hover~.second-icon, .second-icon:hover{
     display: inline-block;
@@ -1761,7 +1817,6 @@ a:link, a:visited,
     background-color: rgb(231, 230, 230);
     width: 100%;
     padding: 10px 0px;
-    margin: 20px 0px -15px 0px;
 }
 .kolom-komentar>input{
     width: 540px;
@@ -1897,30 +1952,40 @@ a:link, a:visited,
     float: left;
     overflow: hidden;
     margin-left: 21px;
+
 }
-/* x */
 .me-gambar-post{
-    opacity: 1;
     min-height: 100%;
     min-width: 100%;
     height: 286px;
-    
-}
-/* .me-post:hover, .me-gambar-post{
-    opacity: 0.3;
-}
-.me-post:hover, .tengah{
     opacity: 1;
+    transition: .5s ease;
+    backface-visibility: hidden;
 }
-.tengah {
+.tengah{
     transition: .5s ease;
     opacity: 0;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%)
-} */
+    position: relative;
+    top: -291px;
+    width: 100%;
+    height: 100%;
+    padding-top: 132px;
+    background-color: #00000073;
+}
+.me-post:hover .me-gambar-post {
+    opacity: 0.5;
+}
+.me-post:hover .tengah {
+    opacity: 1;
+}
+.tengah>i, .tengah>img, .tengah>span{
+    color: white !important;
+    opacity: 1 !important;
+}
+.tengah>span{
+    position: relative;
+    top: -5px;
+}
 .me-post:nth-of-type(3n+1){
     margin-left: 0px;
 }
@@ -1943,31 +2008,6 @@ a:link, a:visited,
     padding: 2px 50px 0px 2px;
     font-weight: 600;
     color: rgb(83, 83, 83);
-}
-.panah-popup{
-    width: 10px;
-    height: 10px;
-    background-color: white;
-    box-shadow: -1px -1px 0px 0px lightgrey;
-    transform: rotate(45deg);
-    top: -5px;
-    z-index: 2;
-}
-.kotak-popup{
-    width: 100px;
-    height: 60px;
-    background-color: white;
-    box-shadow: 0px 0px 2px 0px grey;
-    border-radius: 3px;
-    z-index: 1;
-}
-.posisi-kotak-popup{
-    left: -38px;
-    top: 5px;
-}
-.teks-popup{
-    padding-left: 15px;
-    font-size: .75em;
 }
 .lihatlainnya>a{
     text-decoration: none;
@@ -2028,6 +2068,11 @@ a:link, a:visited,
     background-color: white; 
     border: 1px solid lightgray;
 }
-.gambar-explr-people>ul>li>a{
-    
+.ikon{
+    font-size: 27px;
+    padding-left: 15px;
+    color: gray;
+}
+.ikon:hover{
+    color: #55a5ca;
 }
