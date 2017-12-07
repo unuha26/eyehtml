@@ -1592,6 +1592,7 @@ ul, li {
 .btn-biru:hover{
     color: #3a7dc6;
     background-color: white; 
+    border: 1px solid lightgray;
 }
 .half{
     width: 500px;
@@ -1609,6 +1610,7 @@ ul, li {
     margin-bottom: 10px;
     margin-top: -60px;
 }
+
 .m-t-45{
     margin-top: -45px;
 }
@@ -1682,10 +1684,11 @@ ul, li {
     width: 600px;
     border: 1px solid rgb(230, 230, 230);
     border-radius: 3px;
-    margin-bottom: 50px;
+    margin-top: 50px;
 }
-.feed-profil-foto{
-    width: 35px;
+.feed-profil-foto, .notif-profil-foto, .pp{
+    width: 35px !important;
+    height: 35px !important;
     border-radius: 50%;
     border: 2px solid rgb(151, 151, 151);
 }
@@ -1704,7 +1707,7 @@ ul, li {
 .post-photo{
     width: 600px;
     height: 600px;
-    overflow: hidden;    
+    overflow: hidden;
 }
 .post-photo img{
     min-height: 100%;
@@ -1719,7 +1722,6 @@ ul, li {
 .titik3{
     margin-top: -60px;
     margin-right: 20px;
-    /* z-index: -1; */
 }
 .posisi-kotak-popup{
     right: -40px;
@@ -1740,11 +1742,11 @@ ul, li {
     background-color: white;
     box-shadow: 0px 0px 2px 0px grey;
     border-radius: 3px;
-    z-index: 1;
-    display: none;
+    z-index: 5;
+    /* display: none; */
 }
 .posisi-popup-notif{
-    right: 160px;
+    left: -264px;
     top: 60px;
 }
 .panah-popup-notif{
@@ -1758,12 +1760,12 @@ ul, li {
     z-index: 2;
 }
 .kotak-popup-notif{
-    width: 450px;
-    height: 400px;
+    width: 480px;
+    height: 420px;
     background-color: white;
     box-shadow: 0px 0px 5px 0px #c0c0c0;
     border-radius: 3px;
-    z-index: 2;
+    z-index: 1;
     /* display: none; */
 }
 .teks-popup{
@@ -1782,6 +1784,9 @@ ul, li {
 .like{
     top: -26px;
     left: 33px;
+}
+.comment, .like, .nama-pro-feed{
+    z-index: -1;
 }
 .like>span, .comment span, .komen span{
     font-size: .85em;
@@ -2075,6 +2080,7 @@ ul, li {
     font-size: .8em;
     position: relative;
     border: 0;
+    z-index: -1;
 }
 .btn-blue:hover{
     color: #3a7dc6;
@@ -2172,4 +2178,133 @@ ul, li {
 .box-icon-sosmed i:nth-of-type(4){
     padding: 5px 4px 5px 6px;
     color: #d80480;
+}
+.isi-notif img{
+    width: 50px;
+    height: 50px;
+    border: 1px solid gray;
+    border-radius: 50%;
+    overflow: hidden;
+}
+.isi-notif a, .isi-notif span{
+    font-size: 14px;
+    font-weight: 500;
+}
+.isi-notif a{
+    text-decoration: none;
+    color: rgb(81, 81, 255);
+    font-weight: 600;
+}
+.isi-notif span{
+    color: gray;
+    padding: 5px;
+}
+.notif-profil-foto{
+    margin-left: 13px;
+}
+.notif-photo{
+    border-radius: 3px !important;
+    width: 50px;
+    height: 50px;
+    overflow: hidden;
+    border: 2px solid gray;
+}
+.time-notif{
+    display: block;
+    font-size: .7em !important;
+    margin-left: -5px;
+}
+.garis-notif{
+    width: 370px;
+    border-bottom: 1px solid rgb(221, 221, 221);
+    display: block !important;
+    margin-left: 87px;
+    margin-top: -5px;
+}
+.btn-blue-notif{
+    background-color: #3a7dc6;
+    width: 100px;
+    border-radius: 5px;
+    color: white;
+    padding: 10px 12px;
+    font-size: .9em;
+    position: relative;
+    border: 0;
+}
+.btn-blue:hover-notif{
+    color: #3a7dc6;
+    background-color: white; 
+    border: 1px solid lightgray;
+}
+.mr-7{
+    margin-right: 7px;
+}
+.notific{
+    top: 18px;
+    left: 75px;
+    font-size: .5em;
+    color: white;
+    min-width: max-content;
+    background-color: red;
+    min-height: max-content;
+    text-align: left;
+    line-height: 1em;
+    padding: 1px 3px;
+    border-radius: 10px;    
+}
+.me-head{
+    position: fixed;
+    height: 50px;
+    left: 10%;
+    display: block;
+    background-color: white;
+    border-bottom: 1px solid gainsboro;
+    padding-bottom: 20px;
+    z-index: 10;
+}
+.detail-post-box{
+    /* display: none; */
+    position: fixed;
+    overflow-x: auto;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.226);
+    z-index: 11;
+    font-size: 1.35em;
+    font-weight: 100;
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: .8s;
+    animation-name: fade;
+    animation-duration: .8s;
+}
+.detail-post-box-cont{
+    width: 1000px;
+    height: 550px;
+    top: 20px;
+}
+.d-p-b-l{
+    width: 550px;
+    height: 550px;
+    margin-left: 50px;
+}
+.d-p-b-r{
+    width: 350px;
+    height: 100%;
+    background-color: white;
+    top: -550px;
+    left: 550px;
+    margin-left: 50px;
+}
+.d-p-b-l i, .d-p-b-l img{
+    width: 100%;
+    height: 100%;
+}
+.arrow-l{
+    top: 295px;
+    width: 40px;
+}
+.arrow-r{
+    width: 40px;
+    right: -973px;
+    top: 275px;
 }
