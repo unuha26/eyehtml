@@ -1613,7 +1613,12 @@ ul, li {
     margin-bottom: 10px;
     margin-top: -60px;
 }
-
+.garis-x3{
+    border-bottom: 1px solid gainsboro;
+    padding-top: 35px;
+    margin-bottom: 15px;
+    /* margin-top: -60px; */
+}
 .m-t-45{
     margin-top: -45px;
 }
@@ -1734,6 +1739,10 @@ ul, li {
     right: -40px;
     top: 27px;
 }
+.posisi-p{
+    right: -34px;
+    top: 27px;
+}
 .panah-popup{
     width: 10px;
     height: 10px;
@@ -1778,6 +1787,10 @@ ul, li {
 .teks-popup{
     padding-left: 15px;
     font-size: .75em;
+}
+.teks-p{
+    padding-left: 8px;
+    font-size: .65em;
 }
 .m-l-170{
     margin-left: 170px;
@@ -2012,7 +2025,7 @@ ul, li {
     color: white !important;
     opacity: 1 !important;
 }
-.tengah>span{
+.tengah>span, .zz span{
     position: relative;
     top: -5px;
 }
@@ -2087,7 +2100,7 @@ ul, li {
     min-height: 280px;
     overflow: hidden;
 }
-.btn-blue, .btn-me-submit{
+.btn-blue, .btn-me-submit, .btn-abu{
     background-color: #3a7dc6;
     width: 100px;
     border-radius: 5px;
@@ -2097,6 +2110,13 @@ ul, li {
     position: relative;
     border: 0;
     /* z-index: -1; */
+}
+.btn-abu{
+    background-color: gray !important;
+    color: black !important;
+}
+.btn-abu:hover{
+    background-color: gainsboro !important;
 }
 .btn-me-submit{
     font-size: .6em !important;
@@ -2509,18 +2529,148 @@ ul, li {
     border: 1px solid gray;
 }
 .tube-l{
-    width: 680px;
+    width: 690px;
 }
-.tube-control{
-    position: relative;
-    width: 100%;
-    left: 10px;
-    bottom: 40px;
-    font-size: 18px;
-    color: white;
+.tube-r{
+    width: 330px;
 }
-.tube-control i{
+.ic-play{
     background-color: rgba(0, 0, 0, 0.603);
     border-radius: 4px;
     padding: 2px 10px;
+}
+.top-r{
+    position: relative;
+    width: 35px;
+    left: 655px;
+    top: -375px;
+    color: white;
+}
+.top-r li{
+    display: block;
+    padding-bottom: 5px;
+}
+.ic-v{
+    padding: 5px;
+    background-color: rgba(0, 0, 0, 0.603);
+    border-radius: 4px;
+    font-size: 15px !important;
+}
+.ic-v-send{
+    transform: rotate(-45deg);
+}
+.tube-v{
+    position: relative;
+    width: 400px;
+    background-color: rgba(0, 0, 0, 0.603);
+    border-radius: 4px;
+    padding: 1px;
+    left: 50px;
+    top: -32px;
+}
+.t-title{
+    width: 600px;
+    font-size: 23px;
+    font-weight: 600;
+    display: block;
+    margin-top: -80px;
+}
+.t-etc li{
+    display: inline-block;
+    font-size: 12px;
+    font-weight: 500;
+    color: gray;
+    padding: 10px 2px;
+}
+.zz i{
+    font-size: 18px;
+}
+.zz li{
+    padding: 7px;
+}
+.zz2, .zz2 a{
+    font-size: 14px;
+    font-weight: 500;
+    color: gray;
+}
+.zz2 li{
+    padding: 0px 0px 10px 0px;
+}
+.zz2 a{
+    text-decoration: none;
+}
+.tube-komen{
+    display: inline-block;
+}
+.tube-komen img{
+    width: 50px;
+    border: 2px solid gainsboro;
+    border-radius: 50%;
+}
+/* .tube-komen table img{
+    margin-top: 0px;
+} */
+.tube-komen input{
+    padding: 16px;
+    width: 580px;
+    border-radius: 3px;
+    border: 1px solid gainsboro;
+    margin-top: 0px;
+    position: relative;
+    top: -24px;
+    left: 18px;
+    font-size: 15px;
+}
+/* .tube-komen td{
+    padding: 0px 0px 10px 0px
+} */
+.tube-komen li{
+    padding-right: 20px;
+}
+.tube-komen span, .tube-komen a{
+    font-size: 15px;
+    font-weight: 500;
+    color: rgb(61, 61, 61)
+}
+.unname{
+    color: rgb(41, 41, 41) !important;
+    font-size: 16px !important;
+    font-weight: 600 !important;
+}
+.tube-komen a{
+    text-decoration: none;
+}
+.d-b{
+    display: block;
+}
+.up-r-tube{
+    width: 100%;
+    height: 58px;
+    background-color: gainsboro;
+}
+.up-r-tube span{
+    padding: 5px 0px 0px 10px;
+    font-size: 15px;
+    font-weight: 500;
+    color: #484848;
+    display: block;
+}
+.up-r-tube-cont{
+    width: 100%;
+    height: 322px;
+    overflow: hidden;
+    background-color: rgb(238, 238, 238);
+    border-bottom: 1px solid gainsboro;
+}
+.up-r-tube-cont img{
+    width: 145px;
+    height: 90px;
+
+}
+.aa{
+    font-size: 10px !important;
+    color: gray !important;
+}
+.pd{
+    padding: 10px 15px 0px 15px;
 }
