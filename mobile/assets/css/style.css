@@ -33,6 +33,7 @@ nav{
     background-color: #ffffff;
     position: fixed;
     z-index: 10;
+    box-shadow: 0px 3px 15px -10px black;
 }
 .ep-detail>table, .ep-box-content, .em-box-content, .ev-box-content, .eyetube>h1{
     position: relative;
@@ -118,7 +119,7 @@ nav>img{
 }
 .v-eyetube>img{
     width: 100%;
-    height: 100%;
+    /* height: 100%; */
     position: relative;
     bottom: 100%;
     z-index: -1;
@@ -141,6 +142,8 @@ nav>img{
     padding: 0px 10px;
     text-shadow: 1px 3px 10px rgba(0,0,0,.4);
     text-transform: capitalize;
+    height: 1.191em;
+    overflow: hidden;
 }
 .eyetube>span{
     position: relative;
@@ -182,7 +185,7 @@ nav>img{
     padding: 0px 10px;
     width: 50%;
     position: relative;
-    top: -10px;
+    /* top: -10px; */
 }
 .tab2{
     padding-top: 30px;
@@ -221,7 +224,8 @@ nav>img{
 .rek-ber-c{
     width: 100%;
     height: 109px;
-    margin: 15px 0px;
+    margin: 5px 0px;
+    overflow: hidden;
 }
 .rek-ber-c>img{
     padding-right: 10px;
@@ -243,6 +247,18 @@ nav>img{
 .rek-ber-c>p{
     font-size: .7em;
     color: #9E9E9E;
+}
+.rek-ber-c>.img-res-height{
+    padding-right: 10px;
+    width: 150px;
+    height: 90px;
+    margin: 7px 0px;
+    display: inline-block;
+    overflow: hidden;
+    float: left;
+}
+.rek-ber-c>.img-res-height>img{
+    width: 100%;
 }
 .ev-box-content{
     width: 330px;
@@ -516,6 +532,7 @@ nav>.f-r:hover{
     -webkit-animation-duration: .8s;
     animation-name: fade;
     animation-duration: .8s;
+    top: 0px;
 }
 @-webkit-keyframes fade {
     0% {opacity: 0;}
@@ -793,7 +810,7 @@ nav>.f-r:hover{
 }
 .v-etube-detail{
     width: 130px;
-    height: 70px;
+    height: 78px;
     overflow-y: hidden;
     float: left;
 }
@@ -805,7 +822,7 @@ nav>.f-r:hover{
 }
 .etube-content-detail>h1{
     margin-top: 0px;
-    height: 2.5em;
+    max-height: 2.5em;
     width: 200px;
     overflow: hidden;
 }
@@ -817,7 +834,7 @@ nav>.f-r:hover{
 }
 .unset>.etube-content{
     border-bottom: unset;
-    padding: 2.5px 0px;
+    padding: 4px 0px;
 }
 .box-komentar{
     width: 100%;
@@ -852,7 +869,7 @@ nav>.f-r:hover{
     padding: 10px;
     font-size: .99em;
     font-weight: 300;
-    width: 280px;
+    width: 270px;
 }
 .item-komentar{
     width: 100%;
@@ -863,7 +880,7 @@ nav>.f-r:hover{
 .text-komentar{
     float: left;
     margin-left: 10px;
-    width: 301px;
+    width: 290px;
 }
 .text-komentar p{
     line-height: 1.2em;
@@ -873,13 +890,13 @@ nav>.f-r:hover{
     font-size: .9em;
 }
 .text-komentar h3{
-    font-size: .75em;
+    font-size: .65em;
     font-weight: 500;
     color: gray;
     display: inline;
 }
 .text-komentar span{
-    font-size: .75em;
+    font-size: .65em;
     color: gray;
 }
 .item-komentar:nth-last-of-type(1){
@@ -932,8 +949,175 @@ nav>.f-r:hover{
     position: fixed;
     background-color: white;
     height: 100%;
-    width: 100%;
+    width: 95.5%;
+    margin-left: 2%;
     z-index: 10;
-    top: 47px;
+    top: 60px;
     display: none;
+    border-radius: 10px;
+    box-shadow: 0 0 15px -7px #383737bd;
 }
+.menu-ketegori>a:nth-of-type(n+7){
+    padding: 15px 49px;
+    font-size: .8em;
+    background-color: #FAFAFA;
+    text-transform: uppercase;
+}
+.menu-ketegori>span:nth-last-of-type(1){
+    padding-top: 25px;
+    display: block;
+    background-color: #FAFAFA;
+    border-top: 1px solid gainsboro;
+}
+.menu-bottom-etube{
+    width: 100%;
+    height: 50px;
+    background-color: white;
+    position: fixed;
+    bottom: 0px;
+    border-top: 1px solid gainsboro;
+}
+.menu-bottom-etube>i{
+    color: #91c500;
+    font-size: 2em;
+    width: 24%;
+    text-align: center;
+    margin-top: 9px;
+}
+.etube-home{
+    width: 100%;
+    height: max-content;
+    background-color: #fafafa;
+    padding-top: 47px;
+    float: left;
+}
+.etube-mobile-thumb{
+    width: 95%;
+    margin: 2.5%;
+    background-color: white;
+    border-radius: 7px;
+    box-shadow: 0 0 10px -6px black;
+    overflow: hidden;
+}
+.etube-mobile-thumb>img{
+    width: 100%;
+    overflow: hidden;
+    /* max-height: 200px; */
+}
+.etube-mobile-thumb>h2{
+    margin: 10px 0px 5px 10px;
+    font-size: .9em;
+    font-weight: 500;
+}
+.etube-mobile-thumb>span{
+    margin: 0px 10px 10px;
+    font-size: .7em;
+    color: gray;
+    display: block;
+}
+.headline-enews{
+    width: 100%;
+    float: left;
+    top: -40px;
+    position: relative;
+    height: 50px;
+    background-color: #D32F2F;
+    color: #fce4ec;
+    font-size: .8em;
+}
+.headline-enews>span{
+    font-weight: 600;
+    display: block;
+    padding: 7px 0px 0px 15px;
+}
+.headline-enews>h2{
+    margin: 0px;
+    padding-left: 14px;
+    font-size: 1.3em;
+    font-weight: 600;
+    height: 1.3em;
+    overflow: hidden;
+    width: 90%;
+}
+.video-thumb{
+    width: 250px;
+    overflow: hidden;
+    margin-left: 15px;
+    height: 220px;
+    float: left;
+}
+.video-thumb>.v-thumb-img{
+    width: 100%;
+    height: 150px;
+    overflow: hidden;
+}
+.video-thumb>.v-thumb-img>img{
+    width: 100%;
+}
+.video-thumb>h2{
+    color: #212121;
+    font-size: .9em;
+    width: 95%;
+    margin: 7px 0px;
+    font-weight: 500;
+    max-height: 2.7em;
+    overflow: hidden;
+}
+.video-thumb>span{
+    color: gray;
+    font-size: .7em;
+    margin: 0px;
+    display: block;
+    position: relative;
+    top: -5px;
+}
+.no-decoration a{
+    text-decoration: none;
+}
+.h3-red{
+    font-size: 1em;
+    color: #D32F2F;
+    padding-left: 15px;
+    font-weight: 500;
+}
+ul, li {
+    list-style-type:none;
+    padding:0;
+    margin:0;
+    display: inline-block;
+}
+.crumb {
+    display: block;
+    width: 100%;
+    text-align: center;
+    font-size: .9em;
+    font-weight: 400;
+    margin: 10px 0px;
+    margin-top: 50px;
+    margin-bottom: -47px;
+ }
+ .crumb li {
+     color: #333;
+     text-transform: uppercase;
+     padding: 0px 10px;
+     font-size: .8em;
+     font-weight: 600;
+ }
+ .crumb li:nth-last-of-type(1n+2)::after{
+     content: '/';
+     padding-left: 5px;
+     margin-right: -20px;
+     color: #d8d8d8;
+ }
+ .crumb li a {
+    display:block;
+ }       
+ .crumb li a:link,
+ .crumb li a:visited {
+    color:#777;
+    text-decoration:none;
+ }
+ .crumb li a:hover,
+ .crumb li a:focus {
+    color:#dd2c0d;
+ }
