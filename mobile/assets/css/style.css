@@ -8,6 +8,8 @@ html, body{
 body{
     margin: 0 auto;
     font-family: 'Montserrat', sans-serif;
+    min-width: 375px;
+    
 }
 *{
     -webkit-font-smoothing: antialiased;
@@ -181,9 +183,6 @@ nav>img{
     width: 50%;
     position: relative;
     top: -10px;
-}
-.eyetube>.container{
-    margin-top: -40px;
 }
 .tab2{
     padding-top: 30px;
@@ -527,12 +526,13 @@ nav>.f-r:hover{
     50% {opacity: 1;}
 }
 .m-log, .m-reg, .menu>a{
-    color: #444;
+    color: #5d6362;
     text-decoration: none;
     display: block;
     font-weight: 300;
     -webkit-font-smoothing: antialiased;
     font-family: 'Roboto', sans-serif;
+    font-size: .9em;
 }
 .menu>a{
     padding: 12px 15px;  
@@ -541,7 +541,7 @@ nav>.f-r:hover{
     padding-right: 10px;
     width: 25px;
     position: relative;
-    top: 1px;
+    top: 3px;
 }
 .m-log, .m-reg{
     width: 50%;
@@ -629,7 +629,6 @@ nav>.f-r:hover{
     width: 300px;
     height: 110px;
     margin: 3px;
-    /* border-right: 1px solid #d8d8d8; */
     animation: epmove 13s;
     -webkit-animation: epmove 13s;
     overflow: hidden;
@@ -722,15 +721,219 @@ nav>.f-r:hover{
 .m-b-15{
     margin-bottom: -15px;
 }
-/* :before{
-content: '';
-float: left;
-height: 100%;
-width: 100%;
-background-image: -moz-linear-gradient(left, rgba(255,255,255,0) 0%, rgba(255,255,255,0) 29%, rgba(255,255,255,0.66) 54%, rgba(255,255,255,1) 100%);
-background-image: -webkit-linear-gradient(left, rgba(255,255,255,0) 0%,rgba(255,255,255,0) 29%,rgba(255,255,255,0.66) 54%,rgba(255,255,255,1) 100%);
-background-image: linear-gradient(to right, rgba(255,255,255,0) 0%,rgba(255,255,255,0) 29%,rgba(255,255,255,0.66) 54%,rgba(255,255,255,1) 100%);
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00ffffff', endColorstr='#ffffff',GradientType=1 );
-} */
-/* 
-linear-gradient(to bottom, rgba(255,255,255,0) 0%,rgba(255,255,255,0) 29%,rgba(0, 0, 0, 0.15) 54%,rgba(0, 0, 0, 0.6) 100%) */
+.etube-v-title-mobile{
+    position: relative;
+}
+.etube-v-title-mobile>h1{
+    font-size: .9em;
+    padding-left: 12px;
+    font-weight: 300;
+    margin-bottom: 0px;
+    display: inline-block;
+}
+.etube-v-title-mobile>span{
+    padding-left: 12px;
+    font-size: .65em;
+    display: block;
+}
+.etube-share>i{
+    font-size: 1.2em;
+    color: #4e4e4e;
+    width: 80px;
+}
+.etube-share>i:nth-last-of-type(1){
+    width: 60px;
+}
+.etube-share>i>span{
+    font-size: 0.5em;
+    position: relative;
+    top: -7px;
+    left: -5px;
+    padding: 2px 4px;
+    background-color: #ea2a2a;
+    border-radius: 12px;
+    color: white;
+    min-width: 0px;
+    font-weight: 300;
+    font-family: sans-serif;
+}
+.border-top-bottom{
+    border-top: 1px solid gray;
+    border-bottom: 1px solid gray;
+}
+.etube-share{
+    padding: 5px 0px 10px;
+    height: 20px;
+    overflow: hidden;
+    position: relative;
+    width: 320px;
+    margin: 0 auto;
+    float: unset;
+}
+.etube-share>.more{
+    position: relative;
+    top: 3px;
+    left: -5px;
+}
+.arrow-right-etube{
+    position: absolute;
+    top: 8px;
+    font-size: 1.2em !important;
+    right: 10px;
+}
+.up-next-etube{
+    margin-top: 10px;
+    display: inline-block;
+    font-size: .9em;
+}
+.container-94{
+    width: 94%;
+    margin-left: 2%;
+    float: left;
+}
+.v-etube-detail{
+    width: 130px;
+    height: 70px;
+    overflow-y: hidden;
+    float: left;
+}
+.v-etube-detail>h1{
+    margin-top: 0px;
+    height: 2.5em;
+    width: 200px;
+    overflow: hidden;
+}
+.etube-content-detail>h1{
+    margin-top: 0px;
+    height: 2.5em;
+    width: 200px;
+    overflow: hidden;
+}
+.b-b-1{
+    border-bottom: 1px solid gainsboro;
+}
+.b-t-1{
+    border-top: 1px solid gainsboro;
+}
+.unset>.etube-content{
+    border-bottom: unset;
+    padding: 2.5px 0px;
+}
+.box-komentar{
+    width: 100%;
+    float: left;
+    padding: 10px 0px;
+    border-bottom: 1px solid gainsboro;
+}
+.item-komentar .img-radius, .box-komentar .img-radius{
+    width: 40px;
+    overflow: hidden;
+    height: 40px;
+    background-color: gainsboro;
+    display: inline-block;
+    float: left;
+    margin-left: 10px;
+}
+.img-radius{
+    border-radius: 50%;
+}
+.item-komentar .img-radius img, .box-komentar .img-radius img{
+    height: 100%;
+    margin-left: -30%;
+}
+.input-komentar{
+    display: inline-block;
+    float: left;
+    width: initial;
+    margin-left: 10px;
+}
+.input-komentar input{
+    border: unset;
+    padding: 10px;
+    font-size: .99em;
+    font-weight: 300;
+    width: 280px;
+}
+.item-komentar{
+    width: 100%;
+    float: left;
+    border-bottom: 1px solid gainsboro;
+    padding: 15px 0px;
+}
+.text-komentar{
+    float: left;
+    margin-left: 10px;
+    width: 301px;
+}
+.text-komentar p{
+    line-height: 1.2em;
+    float: left;
+    width: 100%;
+    margin: 0 0 5px 0;
+    font-size: .9em;
+}
+.text-komentar h3{
+    font-size: .75em;
+    font-weight: 500;
+    color: gray;
+    display: inline;
+}
+.text-komentar span{
+    font-size: .75em;
+    color: gray;
+}
+.item-komentar:nth-last-of-type(1){
+    margin-bottom: 15px;
+    border-bottom: unset;
+}
+.box-notif{
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background-color: #0000007d;
+    z-index: 10;
+    display: none;
+}
+.box-notif .box-notif-content{
+    width: 150px;
+    height: 50px;
+    background-color: white;
+    margin: 40vh auto;
+    padding: 20px;
+    border-radius: 5px;
+}
+.box-notif .box-notif-content a{
+    display: block;
+    padding: 5px 0;
+    text-decoration: none;
+    font-size: 1em;
+    color: black;
+}
+.etube-v-title-mobile .deskripsi{
+    height: 0px;
+    overflow: hidden;
+}
+.etube-v-title-mobile .deskripsi p{
+    font-size: .8em;
+    padding: 0px 12px 10px 12px;
+    border-bottom: 1px solid gainsboro;
+    margin-bottom: 0px;
+    height: max-content;
+    overflow: hidden;
+}
+.heightControl2{
+    z-index: -1;
+    color: transparent;
+}
+.heart-first:hover, .heart-first:active, .heart-first:visited{
+    color: red;
+}
+.container-comment{
+    position: fixed;
+    background-color: white;
+    height: 100%;
+    width: 100%;
+    z-index: 10;
+    top: 47px;
+    display: none;
+}
