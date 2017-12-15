@@ -1272,7 +1272,7 @@ ul, li {
     border-radius: 5px;
     border-collapse: unset;
 }
-.t-b-b, .line-b{
+.t-b-b, .line-b, .bbg{
     border-bottom: 1px solid gainsboro;
 }
 .t-b-r{
@@ -1670,7 +1670,7 @@ ul, li {
     height: 160px;
     overflow: hidden;
 }
-.w30 a{
+.w30 a, .news-rcm-r2 a{
     text-decoration: none;
 }
 .subjudul{
@@ -1889,6 +1889,7 @@ ul, li {
 .second-icon{
     display: none;
     color: red;
+    border-color: 2px solid black;
     position: relative;
     left: -29px;
 }
@@ -2784,6 +2785,8 @@ ul, li {
     font-weight: 600;
     color: rgb(61, 61, 61);
     height: 40px;
+    overflow: hidden;
+    padding-top: 5px;
 }
 .r li{
     display: block;
@@ -2915,6 +2918,9 @@ ul, li {
 .h-news-r h1{
     font-size: 1.62em;
     color: dimgray;
+    max-height: 108px;
+    overflow: hidden;
+    margin: 5px 0px 10px;
 }
 .h-news-r table, .h-news-r td{
     margin: -20px 15px;
@@ -2924,9 +2930,6 @@ ul, li {
     font-size: .8em;
     font-weight: 500;
     color: gray;
-}
-.h-news-r h1{
-    margin: 5px 0px 10px;
 }
 .h-news-r li::before {
     content: ' ';
@@ -2985,6 +2988,8 @@ ul, li {
     font-weight: 500;
     color: #808080;
     padding: 5px 0px;
+    max-height: 3.6em;
+    overflow: hidden;
 }
 .news-rcm-z a{
     text-decoration: none;
@@ -2993,6 +2998,8 @@ ul, li {
     margin: 2px 0px;
     font-weight: 500;
     color: rgb(31, 31, 31);
+    max-height: 2.5em;
+    overflow: hidden;
 }
 .news-rcm-r, .news-rcm-r2{
     width: 360px;
@@ -3015,6 +3022,8 @@ ul, li {
 .n-rcm-up-teks{
     padding: 0px 10px 0px 10px;
     margin-bottom: 10px;
+    max-height: 66px;
+    overflow: hidden;
 }
 .news-rcm-d{
     border: 1px solid gainsboro;
@@ -3039,6 +3048,6 @@ ul, li {
     padding: 0px;
     text-align: center;
 }
-/* .news-rcm-r2 td>p{
-    text-align: left !important;
-} */
+.b-t-g{
+    border-top: 1px solid gainsboro;
+}
