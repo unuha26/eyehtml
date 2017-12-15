@@ -58,7 +58,7 @@ table, .tx-l{
 .btn-login, .box-vl, .tx-r{
     text-align: right;
 }
-.t-tab, .tx-c, .line-b td{
+.t-tab, .tx-c, .line-b td, .nav-news, .nav-news span{
     text-align: center;
 }
 .m-r-0{
@@ -1673,6 +1673,9 @@ ul, li {
 .w30 a, .news-rcm-r2 a{
     text-decoration: none;
 }
+.w30:nth-of-type(4n+4){
+    padding-right: 0px;
+}
 .subjudul{
     color: #3a7dc6;
     float: left;
@@ -3050,4 +3053,25 @@ ul, li {
 }
 .b-t-g{
     border-top: 1px solid gainsboro;
+}
+.nav-news li{
+    color: gray;
+    font-size: .7em;
+    font-weight: 500;
+    border: 1px solid gainsboro;
+    min-width: 1em;
+    min-height: 1em;
+    padding: 5px;
+    vertical-align: middle;
+    border-radius: 2px;
+}
+.nav-news li:hover, .nav-news li:active, .nav-news i:active, .nav-news i:hover{
+    color: white;
+    background-color: rgb(233, 0, 0);
+    border-color: rgb(200, 0, 0);
+    font-weight: 600;
+}
+.nav-news i{
+    display: block;
+    margin: -5px -6px -5px -6px;
 }
