@@ -7,6 +7,7 @@ $(document).ready(function(){
         $("#evSlide").carousel("next");
     });
 });
+window.onload = function(){
 var srcbox = document.getElementById('srcbox');
 var src = document.getElementById("src");
 var srcS = document.getElementById("srcSub");
@@ -66,3 +67,4 @@ window.onclick = function(event) {
         srcbox.style.display = "none";
     }
 }
+};
