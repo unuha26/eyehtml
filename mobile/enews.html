@@ -103,9 +103,9 @@
         </div>
     </div>
     <div class="p-container tab2">
-        <span href="" id="xtab" data-target="#tab2" data-slide-to="0" class="disavle-orange-active orange-active">terpopuler</span>
+        <span href="" id="xtab" data-target="#tab2" data-slide-to="0" class="disable-orange-active orange-active">terpopuler</span>
         <span href="" id="xtab" data-target="#tab2" data-slide-to="1" class="disable-orange-active">rekomendasi</span>
-        <span href="" id="xtab" data-target="#tab2" data-slide-to="2" class="disavle-orange-active">usia muda</span>
+        <span href="" id="xtab" data-target="#tab2" data-slide-to="2" class="disable-orange-active">usia muda</span>
         <hr>
         <div id="tab2" class="carousel slide">
             <div role="listbox" class="carousel-inner">                    
@@ -234,15 +234,17 @@
     <script>
     var orangeActive = document.getElementsByClassName("orange-active")[0];
     var disableOrangeActive = document.getElementsByClassName("disable-orange-active")[0];
-    window.onload = function(){
-        orangeActive.style.color = "#FF5722";
-        orangeActive.style.borderBottom = "4px solid #FF5722";
-    }
     disableOrangeActive.onclick = function() {
-        orangeActive.style.color = "rgb(192, 192, 192)";
-        orangeActive.style.border = "none";
+        orangeActive.style.color = "unset !important";
+        orangeActive.style.borderBottom = "unset !important";
+        disableOrangeActive.style.color = "#FF5722";
+        disableOrangeActive.style.border = "#FF5722";
     }
     orangeActive.onclick = function() {
+        orangeActive.style.color = "unset";
+        orangeActive.style.borderBottom = "unset";
+    }
+    window.onload = function(){
         orangeActive.style.color = "#FF5722";
         orangeActive.style.borderBottom = "4px solid #FF5722";
     }
