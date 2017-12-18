@@ -924,16 +924,18 @@ nav>.f-r:hover{
     display: none;
 }
 .box-notif .box-notif-content{
-    width: 150px;
-    height: 50px;
+    width: 95.5%;
     background-color: white;
-    margin: 40vh auto;
-    padding: 20px;
-    border-radius: 5px;
+    padding: 10px 0px;
+    text-align: center;
+    bottom: 0px;
+    position: fixed;
+    margin-left: 2%;
+    border-radius: 5px 5px 0px 0px;
 }
 .box-notif .box-notif-content a{
     display: block;
-    padding: 5px 0;
+    padding: 10px 0;
     text-decoration: none;
     font-size: 1em;
     color: black;
@@ -966,7 +968,7 @@ nav>.f-r:hover{
     z-index: 10;
     top: 60px;
     display: none;
-    border-radius: 10px;
+    border-radius: 5px;
     box-shadow: 0 0 15px -7px #383737bd;
 }
 .menu-ketegori>a:nth-of-type(n+7){
