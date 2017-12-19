@@ -121,6 +121,7 @@ nav>img{
     width: 25px;
     position: relative;
     top: -73%;
+    display: none;
 }
 .btn-play>img{
     width: 25px;
@@ -1133,7 +1134,7 @@ ul, li {
     font-size: .9em;
     font-weight: 400;
     margin: 10px 0px;
-    margin-top: 50px;
+    margin-top: 55px;
     margin-bottom: -47px;
  }
  .crumb li {
@@ -1509,7 +1510,7 @@ ul, li {
     min-height: 200px;
     background-color: #1E88E5;
     color: white;
-    margin: -15px -15px 0px;
+    margin: -15px -6% 0px;
     padding: 15px;
     border-radius: 50px 0px 0px;
 }
@@ -1536,6 +1537,9 @@ ul, li {
 }
 .tab-eprofile a{
     text-transform: uppercase;
+}
+.tab-eprofile a:nth-of-type(1){
+    margin-right: 25px;
 }
 .tab-eprofile .active, .tab-eprofile a:hover{
     font-weight: 600;
@@ -1565,6 +1569,7 @@ ul, li {
     margin-top: 30px;
     margin-bottom: 10px;
     font-weight: 600;
+    float: left;
 }
 .table-stripe tr:nth-of-type(2n+1){
     background-color: #F5F5F5;
@@ -1580,6 +1585,7 @@ ul, li {
     font-weight: 600;
     padding-bottom: 3px;
     color: #BBDEFB;
+    margin-right: 20px;
 }
 .sub-menu a:hover, .sub-menu .active, .sub-menu a:active{
     color: #42A5F5;
@@ -1628,8 +1634,9 @@ ul, li {
 }
 .user-data table{
     width: 94%;
-    margin-left: 3%;
+    margin: 10px 3% 20px;
     text-transform: capitalize;
+    float: left;
 }
 .user-data tr td:nth-of-type(1){
     font-weight: 500;
@@ -1646,4 +1653,65 @@ ul, li {
     text-align: right;
     font-weight: 500;
     text-transform: capitalize;
+}
+.detail-posisi{
+    box-shadow: 0 1px 11px -5px #727277;
+    border-radius: 5px;
+    overflow: hidden;
+}
+.detail-posisi img{
+    width: 100%;
+}
+.detail-posisi h4{
+    font-weight: 500;
+    margin: 10px 0px;
+    text-transform: capitalize;
+}
+.detail-posisi span{
+    font-size: .8em;
+    display: block;
+    padding: 5px 0px;
+    text-transform: capitalize;
+}
+.detail-posisi .half-content{
+    width: 44%;
+    float: left;
+    padding: 0px 3% 20px;
+}
+.eprofile-statistik tr td{
+    /* border-bottom: 1px solid gray; */
+    padding-bottom: 15px;
+    margin-bottom: 15px;    
+}
+.eprofile-statistik li{
+    font-size: 1.2em;
+    font-weight: 400;
+    padding-bottom: 12px;
+    margin-right: 10px;
+    /* border-bottom: 4px solid orange; */
+}
+.eprofile-statistik li:active, .eprofile-statistik li:hover{
+    border-bottom: 4px solid orange;
+}
+.eprofile-statistik th{
+    border-bottom: 1px solid gainsboro;
+    margin: -20px;
+    padding-bottom: 0px;
+}
+.display-img{
+    border-radius: 5px;
+    overflow: hidden;
+}
+.arrow{
+    position: relative;
+    top: -107px;
+    width: 100%;
+    float: left;
+}
+.arrow i{
+    background-color: #ffffffbd;
+    border-radius: 50%;
+    width: 25px;
+    height: 24px;
+    margin: 0px 5px;
 }
