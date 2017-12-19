@@ -472,6 +472,7 @@ footer{
     color: #999;
     font-family: 'Roboto', sans-serif;
     text-align: center;
+    margin-top: 50px;
 }
 footer>p{
     font-weight: 400;
@@ -866,6 +867,7 @@ nav>.f-r:hover{
 }
 .img-radius{
     border-radius: 50%;
+    overflow: hidden;
 }
 .item-komentar .img-radius img, .box-komentar .img-radius img{
     height: 100%;
@@ -1492,4 +1494,77 @@ ul, li {
 }
 .tr-1-bold tr:nth-last-of-type(1) td{
     padding-bottom: 20px;    
+}
+.eprofile{
+    margin-top: 70px;
+    padding: 0 5%;
+    width: 90%;
+    float: left;
+}
+.eprofile .head{
+    height: 200px;
+    background-color: #1E88E5;
+    color: white;
+    margin: -15px;
+    padding: 15px;
+}
+.eprofile .img-radius{
+    height: 70px;
+    width: 70px;
+    display: inline-block;
+    border: 2px solid white;
+    margin: -2px;
+}
+.eprofile .img-radius img{
+    height: 100%;
+}
+.h2-text-bottom{
+    font-size: 1.5em;
+    font-weight: 400;
+    display: inline-block;
+    vertical-align: text-bottom;
+    margin-left: 15px;
+}
+.tab-eprofile{
+
+}
+.tab-eprofile a{
+
+}
+.table-scroll{
+    height: 120px;
+    overflow-y: scroll;
+    margin-top: 10px;
+}
+.table-scroll-x{
+    width: 100%;
+    overflow-x: scroll;
+    border: 1px solid gainsboro;
+    border-radius: 3px;
+}
+.content-tab-eprofile{
+
+}
+.content-tab-eprofile td{
+
+}
+.content-tab-eprofile tr td:nth-of-type(1){
+    font-weight: 600;
+}
+.h3-orange{
+    color: #FF9800;
+    text-transform: uppercase;
+    font-size: 1em;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    font-weight: 600;
+}
+.table-stripe{
+
+}
+.table-stripe th{
+
+}
+.table-stripe tr:nth-of-type(2n+1){
+    background-color: #F5F5F5;
 }
