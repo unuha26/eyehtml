@@ -2293,8 +2293,7 @@ ul, li {
     /* border: 1px solid lightgray; */
 }
 .btn-merah:hover{
-    color: rgb(200, 0, 0);
-    background-color: rgb(230, 230, 230) !important;
+    background-color: rgb(114, 0, 0) !important;
 }
 .ikon{
     font-size: 27px;
@@ -3702,16 +3701,37 @@ ey{
 .p-m td:nth-of-type(1){
     display: block;
 }
-.siber h3, .siber span{
-    text-align: left;
-}
 .arrw-s{
     position: relative;
-    top: -30px;
+    top: -50px;
     font-size: 35px !important;
     border-radius: 50%;
+    transform: rotate(180deg);
+}
+.siber h3, .siber span{
+    text-align: left;
 }
 .siber{
     border-bottom: 1px solid gainsboro;
     padding-bottom: 10px;
+    margin-top: 20px;
+    max-height: 80px;
+    overflow: hidden; 
+    -webkit-transition: max-height 10s; 
+    -moz-transition: max-height 10s; 
+    -ms-transition: max-height 10s; 
+    -o-transition: max-height 10s; 
+    transition: max-height 10s ease-in-out; 
+}
+.siber:hover, .siber:active, .siber:nth-of-type(1){
+    max-height: max-content;
+}
+.arrw-s:hover{
+    transform: rotate(0deg);
+}
+.siber-content{
+    position: relative;
+    top: 2px;
+    margin: 20px;
+    width: 1000px;
 }
