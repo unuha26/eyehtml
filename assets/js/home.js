@@ -51,16 +51,16 @@ $(window).scroll(function(){
     if ($(window).scrollTop() >= 72) {
     $('.menu').addClass('fixed-header');
     $('nav').addClass('h-142');
-    $('.x-m ul ul').addClass('t-65');
-    $('.searchbox').addClass('t-65');
+    $('.x-m ul ul').addClass('t-54');
+    $('.searchbox').addClass('t-54');
     $('.fill').addClass('fill-red');
     $('.t-30>table>tbody>tr>td:nth-of-type(odd)').addClass('fill-red');
     }
     else {
     $('.menu').removeClass('fixed-header');
     $('nav').removeClass('h-142');
-    $('.x-m ul ul').removeClass('t-65');
-    $('.searchbox').removeClass('t-65');
+    $('.x-m ul ul').removeClass('t-54');
+    $('.searchbox').removeClass('t-54');
     $('.fill').removeClass('fill-red');
     $('.t-30>table>tbody>tr>td:nth-of-type(odd)').removeClass('fill-red');
 }
