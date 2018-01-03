@@ -6,6 +6,17 @@ $(document).ready(function(){
     $(".right").click(function(){
         $("#evSlide").carousel("next");
     });
+    $("a").on('click', function (event) {
+        if (this.hash !== "") {
+            event.preventDefault();
+            var hash = this.hash;
+            $('html, body').animate({
+                scrollTop: $(hash).offset().top
+            }, 800, function () {
+                window.location.hash = hash;
+            });
+        }
+    });
 });
 // window.onload = function(){
 var srcbox = document.getElementById('srcbox');
