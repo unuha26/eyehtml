@@ -484,7 +484,7 @@ footer{
     color: #999;
     font-family: 'Roboto', sans-serif;
     text-align: center;
-    margin-top: 50px;
+    /* margin-top: 50px; */
 }
 footer>p{
     font-weight: 400;
@@ -1143,9 +1143,14 @@ ul, li {
     text-align: center;
     font-size: .9em;
     font-weight: 400;
-    margin: 10px 0px;
-    margin-top: 55px;
+    /* margin: -32px 0px; */
+    margin-top: 49px;
+    padding: 5px 0px;
     margin-bottom: -47px;
+    background-color: #fafafa;
+    height: 100%;
+    z-index: 1;
+    /* position: relative; */
  }
  .crumb li {
      color: #333;
@@ -2078,4 +2083,53 @@ ul, li {
 .filter-transparent-green{
     background-color: #33f104c9;
     
+}
+.enews-detail{
+    background-color: white;
+}
+.box-flyad{
+    height: 250px;
+    width: 90%;
+    position: relative;
+    z-index: -1;
+    margin: 0 auto;
+}
+.flyad{
+    height: 90%;
+    margin: 0 auto;
+    position: fixed;
+    top: 50px;
+    width: 90%;
+    z-index: -3;
+    overflow: hidden;
+}
+.col-3{
+    /* width: 12.5%; */
+    width: 25%;
+    float: left;
+}
+.col-emoji{
+    padding-bottom: 15px;
+}
+.col-emoji a{
+
+}
+.col-emoji span{
+    display: block;
+    text-align: center;
+    font-size: .75em;
+    text-transform: capitalize;
+    font-weight: 500;
+}
+.col-emoji .img-box{
+    width: 100%;
+    height: 55px;
+    height: 75px;
+    text-align: center;
+}
+.col-emoji img{
+    width: 80%;
+}
+.box-img-90 img{
+    width: 90%;
 }
