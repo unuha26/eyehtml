@@ -998,7 +998,7 @@ nav>.f-r:hover{
     background-color: #FAFAFA;
     border-top: 1px solid gainsboro;
 }
-.menu-bottom-etube{
+.menu-eme, .menu-bottom-etube{
     width: 100%;
     height: 50px;
     background-color: white;
@@ -1006,6 +1006,30 @@ nav>.f-r:hover{
     bottom: 0px;
     border-top: 1px solid gainsboro;
     z-index: 2;
+}
+.menu-eme ul{
+    width: 100%;
+}
+.menu-eme li{
+    width: 20%;
+    text-align: center;
+    height: 50px;
+    display: block;
+    float: left;
+}
+.menu-eme li img{
+    height: 50%;
+    margin-top: 15%;
+}
+.menu-eme .img-radius{
+    width: 25px;
+    height: 25px;
+    margin: 0 auto;
+    margin-top: 15%;
+}
+.menu-eme .img-radius img{
+    height: 100%;
+    margin: auto;
 }
 .menu-bottom-etube>i{
     color: #91c500;
