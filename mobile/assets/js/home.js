@@ -34,6 +34,22 @@ var heighControl2 = document.getElementsByClassName("heightControl2")[0];
 var xClose2 = document.getElementById("close");
 var containerComment = document.getElementsByClassName("container-comment")[0];
 var openComment = document.getElementsByClassName("openComment")[0];
+var logBtn = document.getElementById('logBtn');
+var regBtn = document.getElementById('regBtn');
+var logBox = document.getElementsByClassName("login-box")[0];
+var regBox = document.getElementsByClassName("register-box")[0];
+logBtn.onclick = function() {
+    logBox.style.display = "block";
+    regBox.style.display = "none";
+    $('#logBtn').addClass('active');
+    $('#regBtn').removeClass('active');
+}
+regBtn.onclick = function() {
+    regBox.style.display = "block";
+    logBox.style.display = "none";
+    $('#regBtn').addClass('active');
+    $('#logBtn').removeClass('active');
+}
 src.onclick = function() {
     srcbox.style.display = "block";
 }
