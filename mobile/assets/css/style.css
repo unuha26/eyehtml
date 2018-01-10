@@ -2158,6 +2158,10 @@ ul, li {
 .col-emoji img{
     width: 80%;
 }
+.box-90{
+    margin-left: 5%;
+    width: 90%;
+}
 .box-img-90 img{
     width: 90%;
 }
@@ -2165,6 +2169,7 @@ ul, li {
     width: 100%;
     height: 100%;
     font-family: sans-serif !important;
+    margin-top: 70px;
 }
 .forgot-form{
     width: 90%;
@@ -2380,4 +2385,174 @@ ul, li {
 .input-checkbox a{
     display: initial;
     color: #1E88E5;
+}
+.kebijakan{
+    text-align: center;
+    color: #57676d;
+}
+.kebijakan h1{
+    font-weight: 100;
+    color: #FFB300;
+}
+.kebijakan h2{
+    font-size: 1.2em;
+    font-weight: 400;
+}
+.kebijakan p{
+    text-align: left;
+    color: #9E9E9E;
+}
+.kebijakan .container{
+    height: 300px;
+    overflow: scroll;
+    border: 1px solid gainsboro;
+    border-radius: 5px;
+    margin-bottom: 50px;
+    margin-top: 15px;
+}
+.kebijakan tr td:nth-of-type(1){
+    vertical-align: text-top;
+}
+.panduan p{
+    max-height: 300px;
+    overflow-y: scroll;
+    border-radius: 5px;
+    font-size: .9em;
+    color: #9E9E9E;
+}
+.panduan p.border{
+    border: 1px solid gainsboro;
+    padding: 15px;
+}
+.panduan h2{
+    margin: 50px auto 0px;
+}
+.panduan h3{
+    font-size: 1em;
+    margin: 20px 0px 0px;
+    color: #fcb500;
+}
+.panduan span{
+    color: #9E9E9E;
+}
+.panduan p span{
+    color: #f9b700;
+    font-weight: 600;
+}
+.panduan a, .panduan p a{
+    color: #4FC3F7;
+}
+.tentang p{
+    text-align: center;
+}
+.tentang span{
+    display: block;
+    text-align: left;
+    font-weight: 100;
+}
+.tentang span b{
+    font-weight: 400;
+}
+.onhover-box{
+    width: 100%;
+    float: left;
+    margin: 30px 0px;
+}
+.onhover-box h2{
+    margin: 5px 0px;
+    font-size: 1em;
+}
+.onhover{
+    width: 100%;
+    text-align: left;
+}
+.onhover-box .onhover .onhover-activ{
+    height: max-content;
+    display: none;
+}
+.tentang{
+    height: max-content !important;
+}
+.tentang img{
+    width: 100%;
+}
+.tentang h3{
+    text-align: center;
+    font-weight: 400;
+    font-size: 1.5em;
+}
+.tentang ul{
+    width: 90%;
+    margin-left: 5%;
+}  
+.tentang li{
+    padding-left: 1em; 
+    text-indent: -.5em;
+    font-size: .9em;
+}
+.tentang li::before{
+    content: "• ";
+    color: red;
+    font-size: 1.5em;
+    line-height: 0px;
+    display: inherit;
+}
+.tentang a{
+    width: 100px;
+    margin: 20px auto 0px;
+    display: block;
+    background-color: #F44336;
+    color: white;
+    padding: 8px;
+    border: none;
+    border-radius: 5px;
+    font-size: .9em;
+    text-decoration: none;
+    text-align: center;
+}
+.tentang a:hover{
+    background-color: #FF7043;
+}
+.pesan{
+    display: block;
+    width: 100%;
+}
+.pesan input, .pesan textarea{
+    width: 94%;
+    padding: 8px;
+    background-color: #FAFAFA;
+    border: 1px solid gainsboro;
+    border-radius: 5px;
+    display: block;
+    width: -webkit-fill-available;
+}
+.pesan span{
+    display: block;
+    text-align: left;
+    margin: 10px 0px;
+    font-size: .7em;
+}
+.pesan button{
+    margin: 10px 0px 50px;
+    padding: 8px 20px;
+    color: white;
+    background-color: red;
+    border: none;
+    border-radius: 5px;
+    font-weight: 500;
+    float: right;
+}
+.kebijakan td h2{
+    margin-bottom: -10px;
+    color: #FF8F00;
+    font-weight: 600;
+    margin-top: 0px;
+}
+.kebijakan td h3{
+    font-size: 1.5em;
+    font-weight: 400;
+    margin-bottom: 0px;
+    border-bottom: 2px solid #EEEEEE;
+    display: inline-block;
+    padding-bottom: 5px;
 }
