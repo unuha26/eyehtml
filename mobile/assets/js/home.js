@@ -89,6 +89,13 @@ openComment.onclick = function() {
 xClose2.onclick = function() {
     containerComment.style.display = "none";
 }
+function onhover(id) {
+    var e = document.getElementById(id);
+    if(e.style.display == 'block')
+       e.style.display = 'none';
+    else
+       e.style.display = 'block';
+ }
 window.onclick = function(event) {
     if (event.target == srcbox) {
         srcbox.style.display = "none";
