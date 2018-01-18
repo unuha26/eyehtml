@@ -1,0 +1,102 @@
+.banner-bottom-ads,.right-square-ads, .headline-ads,.sticky-banner-ads-left, .sticky-banner-ads-right, .native-ads-home .img, .ads-ctn-pemain, .nav-ads{
+    background-color: #FFC107;
+    color: white;
+    text-align: center;
+}
+.nav-ads{
+    width: 320px;
+    height: 60px;
+    display: inline-block;
+    position: relative;
+    float: right;
+    top: 6px;
+}
+.nav-ads h1{
+    font-size: 1em;
+    line-height: 0px;
+    font-weight: 400;
+    margin-bottom: 6px;
+    padding-top: 7px;
+}
+.nav-ads span{
+    font-size: .8em;
+}
+.ads-ctn-pemain{
+    width: 100%;
+    height: 100%;
+}
+.ads-ctn-pemain h1{
+    line-height: 0px;
+    margin: 0px;
+    padding-top: 40px;
+    font-size: 1.5em;
+    font-weight: 100;
+}
+.ads-ctn-pemain span{
+    margin-top: 15px;
+    display: block;
+    font-size: .8em;
+}
+.native-ads-home{
+    width: 100%;
+    float: left;
+}
+.native-ads-home .img{
+    width: 260px;
+    min-height: 135px;
+    max-height: 140px;
+    overflow: hidden;
+}
+.native-ads-home img{
+    width: 100%;
+}
+.sticky-banner-ads-left, .sticky-banner-ads-right{
+    width: 100px;
+    height: 450px;
+    position: fixed;
+    top: 130px;
+    z-index: 1;
+    display: none;
+}
+.sticky-banner-ads-left{
+    left: 5px;
+}
+.sticky-banner-ads-right{
+    right: 5px;
+}
+.headline-ads{
+    width: 100%;
+    height: 300px;
+    margin: 40px 0 10px;
+    text-align: center;
+    color: white;
+}
+.headline-ads h1{
+    font-size: 3em;
+    line-height: 0px;
+    font-weight: 100;
+    padding-top: 115px;
+}
+.native-ads-enews{
+    padding: 0px 20px;
+}
+.native-ads-enews .img{
+    width: 240px;
+}
+.native-ads-enews .vid-box-vl {
+    margin-right: 20px;
+    width: 240px;
+}
+.right-square-ads{
+    width: 100%;
+    height: 320px;
+}
+.banner-bottom-ads{
+    width: 100%;
+    min-height: 120px;
+    float: left;
+}
+.enews-bertita-terkait-native-ads .img{
+    background-color: #fdc300;
+    min-height: 100px;
+}
