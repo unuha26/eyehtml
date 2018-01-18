@@ -19,7 +19,7 @@ a{
     text-decoration: none;
     color: currentColor;
 }
-i{
+i, button{
     cursor: pointer;
 }
 nav{
@@ -714,7 +714,6 @@ video{
 }
 .m-t-14{
     margin-top: -13px;
-    float: left;
 }
 .m-t-35{
     margin-top: -35px;
@@ -1691,6 +1690,7 @@ ul, li {
 .menu-3 a:hover, .menu-3 a:active, .menu-3 li:active{
     border-bottom: 3px solid #3a7dc6;
     color: #3a7dc6;
+    padding-bottom: 5px;
 }
 .menu-5 a:hover, .menu-5 a:active, .menu-5 li:active{
     border-bottom: 3px solid #62A555;
@@ -1724,12 +1724,37 @@ ul, li {
 }
 .bottom-left{
     position: relative;
-    margin-top: -20px;
-    width: 400px;
-    left: 20px;
-    bottom: 100px;
+    padding: 0 20px;
+    bottom: 120px;
     font-size: 18px;
     color: white;
+    background: linear-gradient(#ffffff00, black);
+}
+.wkt{
+    position: relative;
+    bottom: 417px;
+    right: 10px;
+    color: white;
+    font-size: .6em;
+    font-weight: 500;
+    background-color: #00000050;
+    width: max-content;
+    padding: 5px 10px;
+    border-radius: 5px;
+    float: right;
+}
+.wkt-small{
+    position: relative;
+    bottom: 155px;
+    right: 5px;
+    color: white;
+    font-size: .5em;
+    font-weight: 500;
+    background-color: #00000050;
+    width: max-content;
+    padding: 5px 10px;
+    border-radius: 5px;
+    float: right;
 }
 .btn-biru{
     background-color: #3a7dc6;
@@ -1748,10 +1773,11 @@ ul, li {
     border: 1px solid lightgray;
 }
 .half{
-    width: 500px;
+    width: 50%;
     float: left;
     margin-top: 20px;
     overflow: hidden;
+    display: inline-block;
 }
 .half2{
     width: 522.5px;
@@ -1800,6 +1826,11 @@ ul, li {
 .p-d-r-0{
     padding-right: 0px !important;
 }
+.w4, .w-4 {
+    width: 251.25px;
+    float: left;
+    padding-right: 20px;
+}
 .w30{
     width: 240px;
     float: left;
@@ -1812,7 +1843,7 @@ ul, li {
 .w30 a, .news-rcm-r2 a{
     text-decoration: none;
 }
-.w30:nth-of-type(4n+4){
+.w30:nth-of-type(4n+4), .w4:nth-of-type(4n+4), .w-4:nth-of-type(4), .w-4:nth-of-type(9){
     padding-right: 0px;
 }
 .subjudul{
@@ -1849,7 +1880,7 @@ ul, li {
     top: 57px;
 }
 .panahkiri{
-    right: 998px;
+    left: -21px;
     top: 57px;
 }
 .panahkiri:hover, .panahkanan:hover{
@@ -2303,6 +2334,11 @@ ul, li {
 .gambar{
     width: 500px;
     max-height: 320px;
+    overflow: hidden;
+}
+.gambar3{
+    width: 98.2%;
+    height: 300px;
     overflow: hidden;
 }
 .gambar2 img{
