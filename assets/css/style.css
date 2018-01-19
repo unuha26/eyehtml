@@ -1548,6 +1548,27 @@ ul, li {
 .over-in{
     overflow: inherit;
 }
+.over-x{
+    overflow-x: scroll;
+    overflow-y: hidden;
+}
+.w-max{
+    width: max-content;
+}
+.over-x::-webkit-scrollbar {
+    height: 5px;
+}
+.over-x::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px #d2d2d2; 
+    border-radius: 10px;
+}
+.over-x::-webkit-scrollbar-thumb {
+    background: skyblue; 
+    border-radius: 10px;
+}
+.over-x::-webkit-scrollbar-thumb:hover {
+    background: #5b99db; 
+}
 .profile-pemain>span{
     position: relative;
     top: 10px;
