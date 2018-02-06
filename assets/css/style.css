@@ -19,11 +19,7 @@ a{
     text-decoration: none;
     color: currentColor;
 }
-<<<<<<< HEAD
 a>img, .img-src-200, .w30 p, li, .ev-box-content, .logo, .ctn-pemain, .box-content, .pointer, button, h1, h2, h3, h4, h5, span, i{
-=======
-i, button{
->>>>>>> ae4f13e33dd0a159d9ada7b240dbaf8e7c7c4488
     cursor: pointer;
 }
 table, .tb-hasil td, title{
