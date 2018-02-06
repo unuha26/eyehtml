@@ -1,0 +1,22 @@
+.box-flyad{
+    height: 250px;
+    width: 90%;
+    position: relative;
+    z-index: -1;
+    margin: 0 auto;
+}
+.flyad{
+    height: 90%;
+    margin: 0 auto;
+    position: fixed;
+    top: 50px;
+    width: 90%;
+    z-index: -3;
+    overflow: hidden;
+}
+.banner-ad{
+    height: 100px;
+    width: 100%;
+    margin-bottom: 15px;
+    background-color: orange;
+}

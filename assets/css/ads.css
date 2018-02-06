@@ -41,6 +41,15 @@
     width: 100%;
     float: left;
 }
+.native-ads-home h1{
+    line-height: 0px;
+    font-size: 1.5em;
+    font-weight: 100;
+    padding-top: 15px;
+}
+.native-ads-home span{
+    font-size: .8em;
+}
 .native-ads-home .img{
     width: 260px;
     min-height: 135px;
@@ -95,6 +104,14 @@
     width: 100%;
     min-height: 120px;
     float: left;
+}
+.right-square-ads h1, .banner-bottom-ads h1{
+    line-height: 0px;
+    margin-top: 45px;
+    font-weight: 100;
+}
+.right-square-ads h1{
+    margin-top: 150px;
 }
 .enews-bertita-terkait-native-ads .img{
     background-color: #fdc300;

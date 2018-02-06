@@ -19,8 +19,14 @@ a{
     text-decoration: none;
     color: currentColor;
 }
-i{
+a>img, .img-src-200, .w30 p, li, .ev-box-content, .logo, .ctn-pemain, .box-content, .pointer, button, h1, h2, h3, h4, h5, span, i{
     cursor: pointer;
+}
+table, .tb-hasil td, title{
+    cursor: default;
+}
+.news-capt span {
+    cursor: text !important;
 }
 nav{
     position: fixed;
@@ -714,7 +720,6 @@ video{
 }
 .m-t-14{
     margin-top: -13px;
-    float: left;
 }
 .m-t-35{
     margin-top: -35px;
@@ -1199,8 +1204,8 @@ ul, li {
 }
 .btn-orange{
     padding: 6px 15px;
-    background-color: #f59608;
-    border: 1px solid #d68306;
+    background-color: #ff9600;
+    border: 1px solid #ff9600;
     border-radius: 3px;
     color: #fffbf5;
     font-weight: 300;
@@ -1211,7 +1216,7 @@ ul, li {
     text-align: center;
     background-color: transparent;
     padding: 7px;
-    border: 1px solid #f29800;
+    border: 1px solid #ff9600;
     border-radius: 3px;
     color: #f29800;
     font-size: .8em;
@@ -1219,15 +1224,15 @@ ul, li {
     font-weight: 300;
 }
 .btn-orange-2:hover{
-    background-color: #f29800;
+    background-color: #ff9600;
     color: white;
 }
 .btn-orange-3{
     width: 100%;
     text-align: center;
-    background-color: #f29800;
+    background-color: #ff9600;
     padding: 9px;
-    border: 1px solid #f29800;
+    border: 1px solid#ff9600;
     border-radius: 3px;
     color: white;
     font-size: .9em;
@@ -1237,16 +1242,16 @@ ul, li {
 }
 .btn-orange-3:hover{
     background-color: white;
-    color: #f29800;
+    color: #ff9600;
 }
 .btn-white-orange{
-    color: orange !important;
-    border-color: orange !important;
+    color:#ff9600 !important;
+    border-color: #ff9600 !important;
 }
 .btn-white-orange:hover{
     color: white !important;
     border-color: white !important;
-    background-color: orange !important;
+    background-color: #ff9600 !important;
 }
 .btn-abu-2{
     width: 100%;
@@ -1326,7 +1331,7 @@ ul, li {
 .box-pemain>table>tbody>tr>td:nth-of-type(even){
     text-align: right;
 }
-.box-pemain:nth-of-type(3n+2){
+.box-pemain:nth-of-type(2n+2){
     margin: 10px 20px;
 }
 .w-60{
@@ -1344,7 +1349,7 @@ ul, li {
 .w-60 h3, .w-40 h3, .h3-oranye{
     font-size: .8em;
     text-transform: uppercase;
-    color: #ef9a00;
+    color: #ff9600;
     font-weight: 600;
 }
 .formasi td>span{
@@ -1432,7 +1437,7 @@ ul, li {
 .next-right{
     float: right;
     font-size: .8em;
-    color: orange;
+    color: #ff9600;
 }
 .t-8{
     top: 8px;
@@ -1466,8 +1471,8 @@ ul, li {
 }
 .nav-pencetak-gol li:hover, .nav-pencetak-gol li:active, .nav-pencetak-gol i:active, .nav-pencetak-gol i:hover{
     color: white;
-    background-color: orange;
-    border-color: #ef7900;
+    background-color: #ff9600;
+    border-color: #ff9600;
 }
 .nav-pencetak-gol2 li:hover, .nav-pencetak-gol2 li:active, .nav-pencetak-gol2 i:active, .nav-pencetak-gol2 i:hover, .nav-nobar li:hover, .nav-nobar li:active, .nav-nobar i:active, .nav-nobar i:hover{
     color: white;
@@ -1544,7 +1549,7 @@ ul, li {
 .box-img-radius img{
     width: auto;
     height: 100%;
-    margin-left: -20%;
+    /* margin-left: -20%; */
 }
 .over-in{
     overflow: inherit;
@@ -1600,7 +1605,7 @@ ul, li {
 }
 .pd-0-10 a:hover, .pd-0-10 a:active{
     color: black;
-    border-bottom: 5px solid orange;
+    border-bottom: 5px solid #ff9600;
     padding-bottom: 15px;
 }
 .pemain-foto img, .zoom{
@@ -2363,7 +2368,7 @@ ul, li {
     background-color: gainsboro;
 }
 .h4-orange{
-    color: orange;
+    color: #ff9600;
     font-size: .85em;
     font-weight: 600;
     text-transform: uppercase;
@@ -3701,7 +3706,7 @@ ey{
 }
 .log-reg .active /*, .log-reg span:hover*/{
     color: white;
-    background-color: orange;
+    background-color: #ff9600;
 }
 .sh{
     position: relative;
@@ -3998,4 +4003,17 @@ ey{
     display: block;
     font-size: .7em;
     color: gray;
+}
+.carousel-inner .box{
+    min-height: 165px;
+    margin-bottom: 20px;
+}
+.no-ads .box-pemain:nth-of-type(2n+2){
+    margin: 10px 0px;
+}
+.no-ads .box-pemain:nth-of-type(3n+2){
+    margin: 10px 20px;
+}
+.no-ads .box-pemain{
+    margin: 10px auto;
 }
