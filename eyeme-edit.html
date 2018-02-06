@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title></title>
+    <meta name="viewport" content="width=1000">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="assets/css/style.css" rel="stylesheet">
+    <link href="assets/css/bs.css" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <style>
+        .w600 {
+            width: 600px
+        }
+
+        .w600 h4 {
+            margin-bottom: 0px;
+            color: #3a7dc6;
+        }
+
+        .w600 span,
+        .ubah td {
+            font-weight: 500;
+        }
+
+        .gt-foto {
+            width: 80px;
+            height: 80px;
+            border-radius: 50%;
+            overflow: hidden;
+            display: inline-block;
+        }
+
+        .gt-foto img {
+            width: 100%;
+            min-height: 100%;
+        }
+
+        .gan-f {
+            display: block;
+            text-decoration: none;
+            font-size: .8em;
+            font-weight: 500;
+            color: rgb(81, 81, 255);
+            margin: 10px 0 30px 0;
+        }
+
+        .ubah input {
+            padding: 5px;
+            border: 1px solid gainsboro;
+            border-radius: 3px;
+            width: 80%;
+        }
+
+        .ubah td:nth-of-type(1) {
+            width: 200px;
+            text-align: right
+        }
+
+        .bio {
+            width: 82%;
+            max-width: 82%;
+            height: 50px;
+            border-radius: 3px;
+            border: 1px solid gainsboro;
+            padding: 5px;
+            font: 400 13.3333px Arial;
+        }
+
+        .bg-ubah {
+            border-radius: 5px;
+            padding: 10px;
+        }
+
+        .bg-ubah:hover {
+            background-color: rgb(250, 250, 250);
+        }
+    </style>
+</head>
+
+<body>
+    <div class="center-desktop me-head">
+        <div class="w1020 m-0">
+            <div class="container">
+                <div class="fl-r pd-t-20 p-r">
+                    <i class="material-icons ikon">camera</i>
+                    <i class="material-icons ikon">notifications_none</i>
+                    <i class="material-icons ikon">camera_alt</i>
+                    <i class="material-icons ikon">person_outline</i>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="desktop m-0">
+        <div class="container mt-53">
+            <div class="w600 mt-30 m-0">
+                <div class="bg-ubah">
+                    <h4>Sunting profil</h4>
+                    <div class="tx-c">
+                        <b>
+                            <p>Lorem ipsum</p>
+                        </b>
+                        <a href="" alt "Ganti foto">
+                            <div class="gt-foto">
+                                <img src="assets/img/d.jpg" alt="foto profil">
+                            </div>
+                        </a>
+                        <a class="gan-f" href="" alt "Ganti foto">
+                            <span>Ganti Foto</span>
+                        </a>
+                    </div>
+                    <table class="ubah">
+                        <tbody>
+                            <tr>
+                                <td>Username</td>
+                                <td>
+                                    <input type="text" placeholder="Tuliskan username">
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>Email</td>
+                                <td>
+                                    <input type="text" placeholder="Tuliskan email">
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>Bio</td>
+                                <td>
+                                    <textarea name="" class="bio" placeholder="Tuliskan biodata"></textarea>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <div class="tx-c mt-10">
+                        <button class="btn-blue">Simpan</button>
+                    </div>
+                    <br>
+                </div>
+                <div class="bg-ubah">
+                    <h4>Ubah Password</h4>
+                    <table class="ubah">
+                        <tbody>
+                            <tr>
+                                <td>Password lama</td>
+                                <td>
+                                    <input type="password" placeholder="Tuliskan password lama">
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>Password baru</td>
+                                <td>
+                                    <input type="password" placeholder="Tuliskan password baru">
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>Ulangi password</td>
+                                <td>
+                                    <input type="password" placeholder="Tuliskan kembali password baru">
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <div class="tx-c mt-10">
+                        <button class="btn-blue">Ubah</button>
+                    </div>
+                    <br>
+                </div>
+                <br><br><br>
+            </div>
+
+        </div>
+    </div>
+</body>
+
+</html>
