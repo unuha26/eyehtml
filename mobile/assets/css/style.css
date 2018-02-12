@@ -2862,3 +2862,12 @@ ul, li {
 .eyevent-kategori .x-c{
     min-width: 100%;
 }
+.eyevent-klasemen{
+    width: 95%;
+    margin-left: 2.5%;
+    border-radius: 5px;
+    overflow: hidden;
+}
+.slc-musim{
+    margin: 15px 2.5%;
+}

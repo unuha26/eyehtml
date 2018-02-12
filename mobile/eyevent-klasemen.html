@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title></title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=375">
+        <link href="assets/css/bs.css" rel="stylesheet">
+        <link href="assets/css/style.css" rel="stylesheet">
+        <link href="../assets/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    </head>
+    <body>
+    <nav>
+        <i id="menu" class="material-icons f-l">menu</i>
+        <img src="https://www.eyesoccer.id/img/logo2.png" alt="">
+        <i id="src" class="material-icons f-r">search</i>
+    </nav>
+    <div class="crumb">
+        <ul>
+            <li>Home</li>
+            <li>EyeNews</li>
+            <li>Kategori</li>
+        </ul>
+    </div>
+    <div class="trending eyevent-kategori">
+        <div id="reqtrend" class="loadtrend" action="home" loading="off" clean="clstrend" style="display: block;"><span class="x-c">
+            <a href="" title="">Jadwal dan Hasil Pertandingan</a>
+            <a href="" title="">Klasemen</a>
+            <a href="" title="">Event Lainnya</a>
+        </div>
+    </div>
+    <div class="container" style="margin-top: 50px;">
+        <select id="select_league" name="" selected="true" class="slc-musim fl-l">
+            <option value="liga_inggris">
+                Liga Inggris
+            </option>
+            <option value="liga_italia">
+                Liga Italia
+            </option>
+            <option value="liga_spanyol">
+                Liga Spanyol
+            </option>
+        </select>
+    <div id="klasemen" class="eyevent-klasemen klasemen table-blue">
+        <div class="table-scroll-x" style="border: unset;border-radius: unset;">
+        <table class="table-stripe">
+            <tbody>
+                <tr>
+                    <th>#</th>
+                    <th>Klub</th>
+                    <th>MN</th>
+                    <th>M</th>
+                    <th>S</th>
+                    <th>K</th>
+                    <th>P</th>
+                </tr>
+                <tr>
+                    <td>1</td>
+                    <td style="min-width: 100px;">
+                        <img src="http://www.desktopimages.org/pictures/2014/0118/1/red-smoke-wallpaper-hd-5449.jpg" alt=""> arema FC</td>
+                    <td>3234230</td>
+                    <td>1134125</td>
+                    <td>91234123</td>
+                    <td>6123414</td>
+                    <td>31234124</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td style="min-width: 100px;">
+                        <img src="http://www.desktopimages.org/pictures/2014/0118/1/red-smoke-wallpaper-hd-5449.jpg" alt=""> arema FC</td>
+                    <td>3234230</td>
+                    <td>1134125</td>
+                    <td>91234123</td>
+                    <td>6123414</td>
+                    <td>31234124</td>
+                </tr>
+            </tbody>
+            </table>
+            </div>
+        </div>
+        </div>
+    <!-- SEARCHBOX -->
+    <div id="srcbox" class="searchbox">
+        <input type="text" placeholder="cari apa hari ini?"><button id="srcSub" type="submit">Cari</button>
+        <div class="close">
+        </div>
+    </div>
+    <!-- MENU -->
+    <div id="xMenu" class="menu menu-ketegori">
+        <div class="m-top">
+            <span class="m-log" href=""><i class="material-icons xClose">clear</i></span>
+            <a class="m-reg" href=""><i class="material-icons">input</i>Login</a>
+        </div>
+        <span>kanal</span>
+        <a href="eprofile.html"><img src="../assets/img/ic_eyeprofile.png" alt="">Eye Profile</a>
+        <a href="etube.html"><img src="../assets/img/ic_eyetube.png" alt="">Eye Tube</a>
+        <a href="enews.html"><img src="../assets/img/ic_eyenews.png" alt="">Eye News</a>
+        <a href="eyeme.html"><img src="../assets/img/ic-eyeme.png" alt="">Eye Me</a>
+        <a href=""><img src="../assets/img/ic_eyemarket.png" alt="">Eye Market</a>
+        <a href=""><img src="../assets/img/ic_eyevent.png" alt="">Eye Vent</a>
+    </div>
+    <script src="assets/js/home.js"></script>
+    </body>
+</html>
