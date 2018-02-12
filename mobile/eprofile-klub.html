@@ -394,6 +394,7 @@
         var clearH3Orange = document.getElementsByClassName("clear-h3-orange")[0];
         var active = document.getElementsByClassName("active")[0];
         var deactive = document.getElementsByClassName("deactive")[0];
+        window.onload = function(){
         clearH3Orange.onclick = function () {
             h3Orange.style.color = "#FFECB3";
         }
@@ -404,6 +405,7 @@
         active.onclick = function () {
             active.style.borderBottom = "5px solid";
             active.style.fontWeight = "600";
+        }
         }
     </script>
 </body>
